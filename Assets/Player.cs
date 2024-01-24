@@ -21,9 +21,10 @@ public class Player : MonoBehaviour
     bool on_wall = false;
     public Vector3 wall_normal = Vector3.zero;
     public float faster = 1.0f;
-    public float fastest = 2.5f;
-    public float fasting = 0.25f;
+    public float fastest = 4.0f;
+    public float fasting = 0.5f;
     public float buffer_dash = 0.0f;
+    public bool just_dashed = false;
 
     public Animator animator;
 
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        just_dashed = false;
         float delta = Time.fixedDeltaTime;
 
         Quaternion old_cam_rot = new Quaternion(camera.transform.rotation.x, camera.transform.rotation.y, camera.transform.rotation.z, camera.transform.rotation.w);
@@ -81,6 +83,12 @@ public class Player : MonoBehaviour
                 facing_dir = input.normalized;
             }
             motion = Vector3.Lerp(motion, new Vector3(input.x, motion.y, input.z), delta * 16 * movement_effect);
+        } else
+        {
+            if (on_wall)
+            {
+                motion = Vector3.Lerp(motion, new Vector3(input.x, motion.y, input.z), delta * 16 * movement_effect);
+            }
         }
 
         if (buffer_dash > 0)
@@ -119,6 +127,7 @@ public class Player : MonoBehaviour
                 {
                     faster += fasting;
                 }
+                just_dashed = true;
             }
             else
             {
@@ -158,6 +167,7 @@ public class Player : MonoBehaviour
                 {
                     faster += fasting;
                 }
+                just_dashed = true;
             }
         }
 
@@ -205,8 +215,15 @@ public class Player : MonoBehaviour
 
         if (facing_dir.magnitude > 0)
         {
+            bool last_on_wall = on_wall;
             on_wall = false;
-            var move = Physics.RaycastAll(transform.position, movement_xz.normalized, facing_dir.magnitude);
+            List<RaycastHit> hits = new List<RaycastHit>();
+            hits.AddRange(Physics.RaycastAll(transform.position, movement_xz.normalized, facing_dir.magnitude));
+            hits.AddRange(Physics.RaycastAll(transform.position, new Vector3(Mathf.Sign(movement_xz.x), 0, 0), facing_dir.magnitude));
+            hits.AddRange(Physics.RaycastAll(transform.position, new Vector3(0, 0, Mathf.Sign(movement_xz.z)), facing_dir.magnitude));
+
+            var move = hits.ToArray();
+
             float closest = 1e30f;
             for (int i = 0; i < move.Length; i++)
             {
@@ -228,6 +245,13 @@ public class Player : MonoBehaviour
                         }
                     }
 
+                }
+            }
+            if (last_on_wall && !on_wall)
+            {
+                if (!just_dashed)
+                {
+                    dash = 0;
                 }
             }
         }
