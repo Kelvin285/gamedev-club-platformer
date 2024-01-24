@@ -421,6 +421,7 @@ public class Player : MonoBehaviour
             if (on_wall_timer > 0.5f)
             {
                 running = false;
+                faster = 1;
             }
         } else
         {
@@ -432,5 +433,6 @@ public class Player : MonoBehaviour
         animator.SetBool("jump", jump && dash <= 0);
         animator.SetBool("on_wall", !on_ground && on_wall);
         animator.SetFloat("sprinting", running ? 1 : 0);
+        animator.SetFloat("walk_float", (new Vector3(input.x * (1 - Mathf.Abs(wall_normal.x)), 0, input.z * (1 - Mathf.Abs(wall_normal.z))).magnitude > 0) ? 1 : 0);
     }
 }
