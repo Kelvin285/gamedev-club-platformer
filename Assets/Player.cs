@@ -271,6 +271,7 @@ public class Player : MonoBehaviour
                 if (!just_dashed)
                 {
                     dash = 0;
+                    running = false;
                 }
             }
         }
