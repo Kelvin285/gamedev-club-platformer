@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     public float fasting = 0.5f;
     public float buffer_dash = 0.0f;
     public bool just_dashed = false;
+    public bool running = false;
 
     public Animator animator;
 
@@ -74,12 +75,22 @@ public class Player : MonoBehaviour
 
         float speed = 1.0f;
 
-        bool running = false;
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (on_ground)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                running = true;
+            }
+            else
+            {
+                running = false;
+            }
+        }
+
+        if (running)
         {
             speed = 2.0f;
-            running = true;
         }
 
         input *= 8.0f * speed;
