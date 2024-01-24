@@ -74,9 +74,12 @@ public class Player : MonoBehaviour
 
         float speed = 1.0f;
 
+        bool running = false;
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 2.0f;
+            running = true;
         }
 
         input *= 8.0f * speed;
@@ -114,7 +117,7 @@ public class Player : MonoBehaviour
             can_dash = true;
         }
 
-        if ((jump || on_wall) && Vector3.Dot(motion, input) > 0 && (dash <= 0 || on_wall) && buffer_dash > 0)
+        if ((jump || on_wall || running) && Vector3.Dot(motion, input) > 0 && (dash <= 0 || on_wall) && buffer_dash > 0)
         {
             can_dash = false;
             buffer_dash = 0;
@@ -403,5 +406,6 @@ public class Player : MonoBehaviour
         animator.SetBool("walking", input.magnitude > 0);
         animator.SetBool("jump", jump && dash <= 0);
         animator.SetBool("on_wall", !on_ground && on_wall);
+        animator.SetFloat("sprinting", running ? 1 : 0);
     }
 }
