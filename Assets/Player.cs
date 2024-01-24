@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     public float buffer_dash = 0.0f;
     public bool just_dashed = false;
     public bool running = false;
+    public float on_wall_timer = 0;
 
     public Animator animator;
 
@@ -412,6 +413,18 @@ public class Player : MonoBehaviour
         {
             motion *= 0;
             transform.position = grounded_pos;
+        }
+
+        if (on_wall)
+        {
+            on_wall_timer += delta;
+            if (on_wall_timer > 0.5f)
+            {
+                running = false;
+            }
+        } else
+        {
+            on_wall_timer = 0;
         }
 
         animator.SetBool("diving", dash > 0);
