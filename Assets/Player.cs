@@ -72,9 +72,14 @@ public class Player : MonoBehaviour
 
         float movement_effect = on_ground ? 1 : 0.5f;
 
+        float speed = 1.0f;
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 2.0f;
+        }
 
-        input *= 8.0f;
+        input *= 8.0f * speed;
 
         if (dash <= 0)
         {
@@ -133,7 +138,7 @@ public class Player : MonoBehaviour
             {
                 if (wall_normal.x != 0)
                 {
-                    motion.x = wall_normal.x * 8.0f;
+                    motion.x = wall_normal.x * 8.0f * speed;
                 }
                 else
                 {
@@ -141,7 +146,7 @@ public class Player : MonoBehaviour
                 }
                 if (wall_normal.z != 0)
                 {
-                    motion.z = wall_normal.z * 8.0f;
+                    motion.z = wall_normal.z * 8.0f * speed;
                 }
                 else
                 {
