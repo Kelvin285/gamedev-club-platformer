@@ -142,6 +142,7 @@ public class Player : MonoBehaviour
                 can_jump = false;
                 buffer_jump = 0;
                 facing_dir = new Vector3(motion.x, 0, motion.z).normalized;
+                on_wall_timer = 0;
 
                 if (faster < fastest)
                 {
@@ -182,6 +183,7 @@ public class Player : MonoBehaviour
                 buffer_jump = 0;
                 on_wall = false;
                 facing_dir = new Vector3(motion.x, 0, motion.z).normalized;
+                on_wall_timer = 0;
 
                 if (faster < fastest)
                 {
