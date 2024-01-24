@@ -1,0 +1,450 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16166 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+10926
+Successfully changed project path to: C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28584] Host "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1672644726 [EditorId] 1672644726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JUPBHJ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28584] Host "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1672644726 [EditorId] 1672644726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JUPBHJ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007025 seconds.
+- Loaded All Assemblies, in  0.798 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.972 seconds
+Domain Reload Profiling: 2001ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (720ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4922 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 5368.
+Memory consumption went from 201.4 MB to 200.7 MB.
+Total: 5.115000 ms (FindLiveObjects: 0.462200 ms CreateObjectMapping: 0.505200 ms MarkObjects: 3.710200 ms  DeleteObjects: 0.436200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63527.568945 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a48966597211d121dce87144522bcb8') in 0.269577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Blender/water.png
+  artifactKey: Guid(853335f858f9cbd4db57faffd80a0e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/water.png using Guid(853335f858f9cbd4db57faffd80a0e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3de6b2981b9ec4d4192899c413d89fac') in 0.087689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blender/dirt.png
+  artifactKey: Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/dirt.png using Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79247ad41dcf303111b3c60c528b3b7b') in 0.052284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blender/grass_dirt_connect_slope.png
+  artifactKey: Guid(b6e170eb7b3df144db72ced1102191e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/grass_dirt_connect_slope.png using Guid(b6e170eb7b3df144db72ced1102191e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72a6f04b32898a692425458827506a06') in 0.034463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blender/Fence_Post_End_Double.blend
+  artifactKey: Guid(2122708bbd1d4d5418489b52c0e982ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/Fence_Post_End_Double.blend using Guid(2122708bbd1d4d5418489b52c0e982ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '555133d58177c83cd4b1797e52205af8') in 0.048022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2685ad34aaf02d4af9c8d225d99a0cdd') in 0.023250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b70786810825bbc459e08f0fbd64e4e5') in 0.018158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blender/Plank.blend
+  artifactKey: Guid(5fb9bd51ec4306048bcb45fc68a4870b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/Plank.blend using Guid(5fb9bd51ec4306048bcb45fc68a4870b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af29ef8bb3655b8c3951d7baa8a8e0a9') in 0.022218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Blender/Fence_Post.blend
+  artifactKey: Guid(3d78116ee3bcd9147abae8dfc4baae3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/Fence_Post.blend using Guid(3d78116ee3bcd9147abae8dfc4baae3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea04816f7b15e9d1abd7c79afa0403f7') in 0.028098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Blender/tree03.blend
+  artifactKey: Guid(bcf8628190245ae499ace78bc5504c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/tree03.blend using Guid(bcf8628190245ae499ace78bc5504c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aab201ab5eb2b46b9490d56fb51318d') in 0.021274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blender/Fence_Post_Middle.blend
+  artifactKey: Guid(7fc0cef18ac7c6742a119d2cc646f241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/Fence_Post_Middle.blend using Guid(7fc0cef18ac7c6742a119d2cc646f241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8683579ab569c93c5d857553aeef9f1') in 0.032370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 96.665368 seconds.
+  path: Assets/Blender/barrel.blend
+  artifactKey: Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/barrel.blend using Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bfc9af7d6ad0429261cf16d217633f') in 2.401026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Blender/Fence_Post_End.blend
+  artifactKey: Guid(1172c0d17341d5543baaa7eabe04eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/Fence_Post_End.blend using Guid(1172c0d17341d5543baaa7eabe04eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3593cacc98e5b8640626a600db9d68fa') in 0.067039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blender/Fence_Post_End_Double.blend
+  artifactKey: Guid(2122708bbd1d4d5418489b52c0e982ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/Fence_Post_End_Double.blend using Guid(2122708bbd1d4d5418489b52c0e982ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14079b05fa0c15e5d82ff94cf0b26441') in 0.070323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blender/Plank.blend
+  artifactKey: Guid(5fb9bd51ec4306048bcb45fc68a4870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/Plank.blend using Guid(5fb9bd51ec4306048bcb45fc68a4870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bed5d68286f4748428eb78f83bd48de') in 0.038095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blender/bush.blend
+  artifactKey: Guid(da26c5c2a00966744be7e467016fb168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/bush.blend using Guid(da26c5c2a00966744be7e467016fb168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc098e43516a25533685554a1e2c3f4') in 0.029805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Blender/tree02.blend
+  artifactKey: Guid(83468cebd7d584c45a65dcca5c322425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/tree02.blend using Guid(83468cebd7d584c45a65dcca5c322425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b9eff2c260a95f298ad33370567cbc') in 0.107495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blender/rocks.blend
+  artifactKey: Guid(1bdf260ac5382654eb8f755d8d33f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/rocks.blend using Guid(1bdf260ac5382654eb8f755d8d33f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f93725a3f0ca0dfee817caccf0ecda0') in 0.026207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Blender/Fence_Post_Middle.blend
+  artifactKey: Guid(7fc0cef18ac7c6742a119d2cc646f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/Fence_Post_Middle.blend using Guid(7fc0cef18ac7c6742a119d2cc646f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c968d25c9e565479cb65dcf2587702') in 0.047504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blender/tiles.blend
+  artifactKey: Guid(10d7ef0a7d78a6e4f8c04ccfc2f7202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/tiles.blend using Guid(10d7ef0a7d78a6e4f8c04ccfc2f7202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934b895f0c7c259601c7b1cb91c6e23a') in 0.131044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 29.877869 seconds.
+  path: Assets/Blender/barrel.blend
+  artifactKey: Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/barrel.blend using Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cedb083570c62f52cf3992b87d95fc') in 0.044806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.888124 seconds.
+  path: Assets/Blender/barrel.blend
+  artifactKey: Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/barrel.blend using Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e27df3102aad2e60af93e84d29c8f53') in 0.045453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 47.948525 seconds.
+  path: Assets/Blender/barrel.blend
+  artifactKey: Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/barrel.blend using Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed11b826326f3990007511aaba19da') in 0.038038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.904972 seconds.
+  path: Assets/Blender/barrel.blend
+  artifactKey: Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/barrel.blend using Guid(f6e50621f7c074e45a98fc69a5ea46c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2dc1862fe7ea3d3336603ce6d4d200c') in 0.037654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 24.650139 seconds.
+  path: Assets/Blender/barrel.png
+  artifactKey: Guid(33a4c277aa04a01468d5e4e7ff14ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/barrel.png using Guid(33a4c277aa04a01468d5e4e7ff14ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40bb5b3abc9d2ce01e1884fbb8a8d1a') in 0.032852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blender/grass_dirt_connect.png
+  artifactKey: Guid(fb0e47445e5a5b74d945a65679921f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/grass_dirt_connect.png using Guid(fb0e47445e5a5b74d945a65679921f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e4f1b0d0fa4456c17d1ec564a97e9e') in 0.022173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Blender/dirt.png
+  artifactKey: Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/dirt.png using Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc39c43ba5d07dcecddedc5ca45fabdf') in 0.011867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blender/water.png
+  artifactKey: Guid(853335f858f9cbd4db57faffd80a0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender/water.png using Guid(853335f858f9cbd4db57faffd80a0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650d310a226920dca902a40b6bb03233') in 0.019593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.839191 seconds.
+  path: Assets/Blender/grass.png
+  artifactKey: Guid(b596c0a75b5163847ac3d45bc9ece914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/grass.png using Guid(b596c0a75b5163847ac3d45bc9ece914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b776085a8cf33cb079128c1fc254a60c') in 0.027463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Blender/barrel.png
+  artifactKey: Guid(33a4c277aa04a01468d5e4e7ff14ff00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/barrel.png using Guid(33a4c277aa04a01468d5e4e7ff14ff00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd742a29f52412cbf9a781bbc2c6ca689') in 0.031574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Blender/dirt.png
+  artifactKey: Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blender/dirt.png using Guid(927efc8a8a2daa2409670dbe3e4cbcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8cc7ce97f13fcbf26299f6ee27f51d3') in 0.027464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

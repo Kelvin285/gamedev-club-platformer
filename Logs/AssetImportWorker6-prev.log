@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16166 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+10926
+Successfully changed project path to: C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9232] Host "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1260597515 [EditorId] 1260597515 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JUPBHJ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9232] Host "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1260597515 [EditorId] 1260597515 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JUPBHJ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kevin/Desktop/Gamedev Club/Group Project/Gamedev-Club-Party-Game/GameDev TopDown Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006965 seconds.
+- Loaded All Assemblies, in  0.487 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.867 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1787ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (696ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (0.8 MB). Loaded Objects now: 5481.
+Memory consumption went from 204.6 MB to 203.8 MB.
+Total: 4.659300 ms (FindLiveObjects: 0.428500 ms CreateObjectMapping: 0.427600 ms MarkObjects: 3.389700 ms  DeleteObjects: 0.412500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Layer.cs: 28a9c15f2a2c53f65b28c92f54dbfbf9 -> 
+  custom:scripting/monoscript/fileName/Category.cs: 3006d49d98db14b84aa65f2d09f1fc1e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Tool.cs: be099936d815189850597d589554409d -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 731349e70fefdccf4a36d5cb0174ed16 -> 
+  custom:scripting/monoscript/fileName/EraserPositionCalculator.cs: 4b8435a1abe38a6d71eeab699266d91b -> 
+  custom:scripting/monoscript/fileName/Vector3Extensions.cs: e23141a9c3b911db5103025af5f1d1d3 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ToolPanelFactory.cs: 915c954fc2bfddf33b75b96de2566034 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/VisualElementUtility.cs: 6f6e44d1ff7e3764ae212c768ef7a852 -> 
+  custom:scripting/monoscript/fileName/Tilemap3D.cs: 0ef5190a7595674db45317b82974ae5e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FabgridHelpWindow.cs: aa519309a2347494c947590dd62d95a0 -> 
+  custom:scripting/monoscript/fileName/Tilemap3DEditor.cs: cd00767e77b37927147e4a8913c930c8 -> 
+  custom:scripting/monoscript/fileName/RemoveCategoryPopup.cs: 43c06d0eb2db254b508c640e70dc0b61 -> 
+  custom:scripting/monoscript/fileName/TilePreviewRenderer.cs: 889a81fc16d8c2b74de30c604b576944 -> 
+  custom:scripting/monoscript/fileName/LayerPanel.cs: c369fc5f8c5fa61d1a3ddb22255222d5 -> 
+  custom:scripting/monoscript/fileName/SerializableDictionary.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RectangleTool.cs: d6a1cda47ca34a0deb8854b34cb7d56c -> 918735360672870f95e0d13d8e122888
+  custom:scripting/monoscript/fileName/TileRotator.cs: 45b90f0e8b0e8c7ccd158ab15371bf96 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/AddTile.cs: c202c1646b6e84aa7c89509968f987b0 -> 
+  custom:scripting/monoscript/fileName/Configurate.cs: aef6edf58567c6f4a31ca0192a4a3cf4 -> 
+  custom:scripting/monoscript/fileName/Paint.cs: a2fa6711b59db0ad07806bd55a243b3e -> 
+  custom:scripting/monoscript/fileName/DrawingUtility.cs: 6442c30645f446ca00fa13f1c5db854d -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brush.cs: 18d5959673a7cd996af46e46b605cd90 -> 
+  custom:scripting/monoscript/fileName/Panel.cs: 1745f5cac944ce672f8a621b05a5fc83 -> 
+  custom:scripting/monoscript/fileName/ToolFactory.cs: 3ef5cfa0b7b32db2d6de2dbc04fec70e -> 
+  custom:scripting/monoscript/fileName/EditTilePopup.cs: c0b3e206bd8ef04872910b9efa46d3b2 -> 
+  custom:scripting/monoscript/fileName/AddCategoryPopup.cs: 4a5af658d2ab388fd7bf02ad6e2fe420 -> 
+  custom:scripting/monoscript/fileName/FabgridUtility.cs: 1cc3f6cf1d7cd6d1ab1012c7205a53a2 -> 
+  custom:scripting/monoscript/fileName/BrushToolPanel.cs: 9709265a949dd0344579f1e7c1a1982c -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FabgridRaycaster.cs: be4e76468e2b7423cd7bce3c2c097c42 -> 
+  custom:scripting/monoscript/fileName/EventHandler.cs: 5e7303d4e2b10b5e728d2f4fd3b372ee -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FloorTilePositionCalculator.cs: afc7112b63883492d5c2e8ea3289ef10 -> 
+  custom:scripting/monoscript/fileName/Batching.cs: 26bc12207cfa9964552cc8dde211d43b -> 
+  custom:scripting/monoscript/fileName/Eraser.cs: 03c7e26dc7dd5a3410c8c2a0cde1fbd5 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/FabgridLogger.cs: d6ceb16130e21d4de9a792b416cb50f6 -> 
+  custom:scripting/monoscript/fileName/DebugUtility.cs: 8ed3e1e4dc05e63d9b19c72319b9a546 -> bd490dbb4d22e264b43629b4c0719413
+  custom:scripting/monoscript/fileName/TileCollection.cs: 008c86c72aa38afb09d1d0f42e337a4d -> 
+  custom:scripting/monoscript/fileName/PathUtility.cs: 0a6ba9c759a750c2a0a64ca279ffd9e0 -> bc44f04172a562131c264196de185160
+  custom:scripting/monoscript/fileName/State.cs: 3e4eb54e7deb22faa2e6a48a5e0016b2 -> 7b399a2323d8175a0208ae1f055d7099
+  custom:scripting/monoscript/fileName/ActionButton.cs: ddfa90f8c956908298db40bd352a7dd6 -> 
+  custom:scripting/monoscript/fileName/TilePositionCalculator.cs: 554a420bbb5cffb933cdf4d9803d03dc -> 
+  custom:scripting/monoscript/fileName/GridTilePositionCalculator.cs: 6583f323d88539dc5a5fe4ad8b7e95f1 -> 
+  custom:scripting/monoscript/fileName/ToolPanel.cs: bea64f858ed9a899c33eaacd0325c60d -> 
+  custom:scripting/monoscript/fileName/LayerBehaviour.cs: ab5630858ed2092989275eb0cd0280be -> 
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 91cd1ed51432836872c4c17c65953054 -> 0aad2728225c469038631668406aebb3
+  custom:scripting/monoscript/fileName/RectangleToolPanel.cs: a32449d180c6b3c23307217b59e71ca8 -> 
+  custom:scripting/monoscript/fileName/StylingUtility.cs: d7b7419654dada6681caa7d717db33ad -> 
+  custom:scripting/monoscript/fileName/FabgridMath.cs: 666200bf0ece9ef7fb8f579f0e930771 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Help.cs: a7ae9747e90cbc7df887ee54b8b7dd05 -> 
+  custom:scripting/monoscript/fileName/FSM.cs: af0584e512e49fdad10a1247679a9381 -> 
+  custom:scripting/monoscript/fileName/BatchingUtility.cs: 2af19993efbc83dcf1b920f90b5b7582 -> 
+  custom:scripting/monoscript/fileName/AdaptiveTilePositionCalculator.cs: b5143269d79b30b504659eefa7fb2e88 -> 
+  custom:scripting/monoscript/fileName/TileSet.cs: ed3361b73d7499cd3ac14d49469ee5ca -> 
+  custom:scripting/monoscript/fileName/Dialog.cs: 84e53688c5aab11e7e572677b14134c5 -> 
+  custom:scripting/monoscript/fileName/MeshTilePositionCalculator.cs: 6413e69266cdf87585e825c5f9c9cb66 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Tile.cs: 95629e77caf4499b42c440e93c0ffd15 -> 
+  custom:scripting/monoscript/fileName/EraserToolPanel.cs: 8ee6198f59d1aac13435587b79cf016f -> 
+  custom:scripting/monoscript/fileName/FabgridRaycastHit.cs: 0e0640e214306a9aa1ca40751bb1e60f -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65120.605119 seconds.
+  path: Assets/Tiles/Grass.prefab
+  artifactKey: Guid(eac624a38ec40934483672f60fbe6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass.prefab using Guid(eac624a38ec40934483672f60fbe6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0807f17049e7ebff3562e7f4e2fd0ee') in 0.363472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 358.230492 seconds.
+  path: Assets/Tiles/Dirt Corner.prefab
+  artifactKey: Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Corner.prefab using Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7440301b1bbd9388541fe739f8ae1ca') in 0.025758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Dirt Edge.prefab
+  artifactKey: Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Edge.prefab using Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa26face4cbd3ec106a37d07f825651') in 0.015819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Grass Slope.prefab
+  artifactKey: Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass Slope.prefab using Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b133da547c7a620e3e36c6894b7b07') in 0.024581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Grass Corner.prefab
+  artifactKey: Guid(d40641b22c62d0746a2e5849c6a8b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass Corner.prefab using Guid(d40641b22c62d0746a2e5849c6a8b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc61a801910a9adde938ef000b78a74') in 0.014037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.737194 seconds.
+  path: Assets/Tiles/Dirt Corner.prefab
+  artifactKey: Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Corner.prefab using Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6442457a7946d6309ed47e5cd188aa') in 0.016206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Dirt Edge.prefab
+  artifactKey: Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Edge.prefab using Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69175686f0a54cfe930de17f7e115fa4') in 0.013687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Grass Slope.prefab
+  artifactKey: Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass Slope.prefab using Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a79d84f88a84e7d34acff84deb451f8') in 0.013917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Grass.prefab
+  artifactKey: Guid(eac624a38ec40934483672f60fbe6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass.prefab using Guid(eac624a38ec40934483672f60fbe6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af14578bbe407c942dec4d7aca038c66') in 0.015449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Water.prefab
+  artifactKey: Guid(33d4cc7bdb4df7f45bf84da3cc1cb185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Water.prefab using Guid(33d4cc7bdb4df7f45bf84da3cc1cb185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3079d7743687083f04533dab0d797c44') in 0.021101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.585916 seconds.
+  path: Assets/Tiles/Dirt Corner.prefab
+  artifactKey: Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Corner.prefab using Guid(761ad62db7e13dd4eb4e359604e607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb70cbfd03cd119ea8b1198db1403e3') in 0.016826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Dirt Edge.prefab
+  artifactKey: Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Dirt Edge.prefab using Guid(ad35a66513287754685c90064527a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e641a18cdee9f63fdef47269ebf1a6b0') in 0.012025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Grass Slope.prefab
+  artifactKey: Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass Slope.prefab using Guid(ed36d67bf72afb7418fb5f4ca1c450c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0852173542a80d136ee5ca7d38e476f5') in 0.012041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Grass Corner.prefab
+  artifactKey: Guid(d40641b22c62d0746a2e5849c6a8b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grass Corner.prefab using Guid(d40641b22c62d0746a2e5849c6a8b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c2b82cf2b992229cc68341a49edabd') in 0.011452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
